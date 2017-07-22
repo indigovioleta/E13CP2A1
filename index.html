@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Piedra, Papel o Tijera</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/59c4dde76c.js"></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/game.js"></script>
+</head>
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="juego">
+					<h1>Piedra, Papel o Tijera</h1>
+					<h3>Escoje tu opción:</h3>
+					<img src="img/piedra.jpg" alt="Piedra" class="img-responsive" onclick="jugar('Piedra')">
+					<img src="img/papel.jpg" alt="Papel" class="img-responsive" onclick="jugar('Papel')">
+					<img src="img/tijera.jpg" alt="Tijera" class="img-responsive" onclick="jugar('Tijera')">
+					<div id="eleccion"></div>
+					<div id="resultado"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+</body>
+</html>

@@ -1,0 +1,32 @@
+h1 {
+	font-weight: bolder;
+}
+
+.img-responsive {
+	display: inline-block;
+	width: 30%;
+}
+
+img {
+	cursor: pointer;
+}
+
+img:hover {
+	box-shadow:
+	1px 1px #a0a0a0,
+	2px 2px #a0a0a0,
+	3px 3px #a0a0a0;
+	-webkit-transform: translateX(-3px);
+	transform: translateX(-3px);
+	transition:all .5s ease-in-out;
+}
+
+span {
+	font-weight: bolder;
+	font-style: italic;
+}
+
+#eleccion {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
