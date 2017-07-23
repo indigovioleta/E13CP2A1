@@ -34,6 +34,6 @@ function jugar(opcionUsuario){
 	}
 	//Mostramos el resultado
 	document.getElementById('eleccion').innerHTML = "<p>Has elegido "+"<span>"+ opcionUsuario +"</span>"+" y La Maquina ha elegido "+"<span>"+ opcionMaquina+"</span>";
-	document.getElementById('resultado').innerHTML = +"<h2>"+ resultado +"</h2>";
+	document.getElementById('resultado').innerHTML = "<h2>"+ resultado +"</h2>";
 }
 
